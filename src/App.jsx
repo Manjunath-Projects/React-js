@@ -1,17 +1,28 @@
-
-import Propschild from "./Components/Props/Propschild"
-import Functional from "./Components/States/Functional"
-
+import React from "react"
+import Controlled from "./Components/Controlled"
+// import { BrowserRouter, Route, Routes } from "react-router-dom"
+// import Interval from "./Components/Useeffect/Interval"
+// import Home from "./Components/Home"
+// import About from "./Components/About"
+// import Login from "./Components/Login"
 
 
 function App() {
   return (
     <>
-       <Propschild>
-        <h1>hello from h1</h1>
-        <h2>hello from h2</h2>
-       </Propschild>
-      <Functional/>
+   {/* <Useeffect/> */}
+   {/* <Interval/> */}
+
+   {/* <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/login" element={<Login/>} />
+   </Routes>
+   </BrowserRouter> */}
+
+    <Controlled />
+
     </>
   )
 }
